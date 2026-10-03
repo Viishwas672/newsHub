@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NewsHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <!-- Three Lines / Cross Button -->
+        <button id="menu-btn" class="menu-btn">
+            ☰
+        </button>
+
+        <!-- Logo -->
+        <div class="logo">
+            📰 NewsHub
+        </div>
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search news..."
+            >
+
+            <button id="search-btn">
+                🔍
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         SIDE MENU
+    ========================== -->
+
+    <div id="side-menu" class="side-menu">
+
+        <h2>Account</h2>
+
+        <button class="login-btn">
+            Login
+        </button>
+
+        <button class="signup-btn">
+            Sign Up
+        </button>
+
+        <hr>
+
+        <h2>Support</h2>
+
+        <button
+            class="support-btn"
+            id="support-btn">
+            Help & Support
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         CATEGORY BAR
+    ========================== -->
+
+    <nav class="category-bar">
+
+        <button data-category="general">
+            Home
+        </button>
+
+        <button data-category="sports">
+            Sports
+        </button>
+
+        <button data-category="politics">
+            Politics
+        </button>
+
+        <button data-category="education">
+            Education
+        </button>
+
+        <button data-category="business">
+            Business
+        </button>
+
+        <button data-category="wars">
+            Wars
+        </button>
+
+        <button data-category="geopolitics">
+            Geopolitics
+        </button>
+
+    </nav>
+
+
+    <!-- =========================
+         PAGE TITLE
+    ========================== -->
+
+    <div class="page-title">
+
+        <h1 id="page-heading">
+            Latest News
+        </h1>
+
+    </div>
+
+
+    <!-- =========================
+         NEWS
+    ========================== -->
+
+    <main>
+
+        <div id="news-container">
+            Loading news...
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         HELP & SUPPORT POPUP
+    ========================== -->
+
+    <div id="support-popup" class="support-popup">
+
+        <div class="support-box">
+
+            <!-- Close Popup -->
+            <button
+                id="close-support"
+                class="close-support">
+                ✕
+            </button>
+
+
+            <h2>
+                Help & Support
+            </h2>
+
+            <p>
+                How can we help you?
+            </p>
+
+
+            <!-- FAQ -->
+            <button class="support-option">
+                ❓ Frequently Asked Questions
+            </button>
+
+
+            <!-- Report Problem -->
+            <button class="support-option">
+                🐛 Report a Problem
+            </button>
+
+
+            <!-- Feedback -->
+            <button class="support-option">
+                💬 Send Feedback
+            </button>
+
+
+            <!-- Contact -->
+            <button class="support-option">
+                📧 Contact Us
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
